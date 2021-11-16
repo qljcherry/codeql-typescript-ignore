@@ -1,6 +1,6 @@
 # CodeQL-javascript
 
-## [CodeQL analysis](codeql-ts.dockerfile:L13-15)
+## [CodeQL analysis](codeql-ts.dockerfile#L13-L15)
 
 ```shell
 git clone https://github.com/qljcherry/codeql-typescript-ignore .
@@ -14,7 +14,7 @@ Results are found in both src and tests directories.
 "Code injection","Interpreting unsanitized user input as code allows a malicious user arbitrary code execution.","error","[[""User-provided value""|""relative:///tests/foo.ts:1:6:1:27""]] flows to here and is interpreted as code.","/tests/foo.ts","1","6","1","85"
 ```
 
-## [CodeQL analysis with config file](codeql-ts-ignore.dockerfile:L13-15)
+## [CodeQL analysis with config file](codeql-ts-ignore.dockerfile#L13-L15)
 
 ```shell
 git clone https://github.com/qljcherry/codeql-typescript-ignore .
